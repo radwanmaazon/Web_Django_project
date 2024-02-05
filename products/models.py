@@ -11,4 +11,6 @@ class product(models.Model):
     publish_date= models.DateTimeField(default= datetime.now)
     def __str__(self):
         return self.name 
+
+# This edit on github rebo to check my github understanding
     
